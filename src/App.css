@@ -1,0 +1,53 @@
+body {
+  background-color: lightslategray;
+}
+
+.App {
+  border-style: dotted;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  
+  
+}
+
+form > * {
+  height: 2rem;
+  font-size: 1.5rem;
+  margin: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-container > * {
+  /* display: inline-block; */
+  justify-content: center;
+  border-style: solid;
+  border-radius: 0.5rem;
+  margin: 0.25rem;
+  padding: 0.25rem;
+  width: 10rem;
+  overflow-wrap:break-word;
+}
+
+.even {
+  background-color: mediumaquamarine;
+}
+
+.odd {
+  background-color: mediumseagreen;
+}
